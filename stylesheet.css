@@ -1,0 +1,219 @@
+    /*----Base----*/
+    html{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      box-sizing: border-box;
+      margin: 0px;
+      padding: 0px; 
+      height: 100%;
+      background-image: url(XPwallpaper.jpg);
+      background-size: cover;
+
+    /*----Navigation----*/
+    }
+    nav {
+      display: flex;
+      align-items: center;
+      max-height: 7vh;
+      background-color: rgba(233,185,232,0.5);
+    }
+    .logo, .logo a  {
+      flex: 1;
+      padding-left: 30px;
+      color: black;
+      font-size: 20px;
+      text-decoration: none;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+    }
+    .nav-links {
+      padding: 20px;
+      width: 30%;
+    }
+    .nav-links ul{
+      float: right;
+    }
+    .nav-links a, .nav-links li, .nav-links ul{
+      margin: 0 6px;
+      letter-spacing: 4px;
+      display: inline-block;
+      color: black;
+      text-decoration: none;
+      list-style: none;
+      font-size: 20px;
+      text-transform: uppercase;
+    }
+
+    /*----HomePage----*/
+    .main{
+      display: contents;
+      width: 90%;
+      position: absolute;
+      transform: translate(-50%,-50%);
+      text-align: center;
+    }
+    .main h3{
+      padding-top: 180px;
+      margin-bottom: 0px;
+      font-size: 40px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      font-weight: normal;
+    }
+    .main p{
+      margin-bottom: 280px;
+    }
+    .main a{
+      text-decoration: none;
+      color:rgba(184,152,199);
+    }
+
+    /*----About----*/
+    .about {
+      width: 100%;
+      padding: 80px 0px;
+    }
+    .about figure{
+      height: auto;
+      width: 300px;
+    }
+    .about-text{
+      width: 600px;
+    }
+    .figure{
+      width: 1400px;
+      max-width: 95%;
+      margin:  0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+    .about h1{
+      margin-bottom: 0px;
+      font-size: 40px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      font-weight: normal;
+    }
+    .about h3{
+      font-weight: normal;
+      font-size: 15px;
+      margin-top: 0px;
+    }
+    .about a{
+      color: black;
+    }
+    /*----Projects----*/
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      grid-column-gap: 20px;
+      grid-row-gap: 20px;
+      }
+    .div1 { grid-area: 2 / 2 / 3 / 3; }
+    .div2 { grid-area: 3 / 2 / 4 / 3; }
+    .div3 { grid-area: 2 / 3 / 3 / 4; }
+    .div4 { grid-area: 3 / 3 / 4 / 4;}
+      
+    .div1, 
+    .div2,
+    .div3,
+    .div4{
+      border: 2px solid rgba(184,152,199);
+      width: 400px;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+    .grid a{
+      text-decoration: none;
+      color: rgba(184,152,199);
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    /*----Formulier----*/
+    body .Formulier{
+      max-width: 1000px;
+      margin: 40px auto;
+    }
+    fieldset {
+      border: 2px solid rgba(184,152,199);
+      margin: 20px 0;
+    }
+    fieldset legend {
+      color: rgba(184,152,199);
+    }
+    label,
+    input,
+    select {
+      display: inline-block;
+      margin: 10px 0;
+    }
+    input,
+    #question,
+    #questionType{
+      background-color: rgba(233,185,232,0.6);
+    }
+    fieldset label,
+    fieldset input,
+    fieldset select,
+    fieldset textarea {
+      min-width: 320px;
+      vertical-align: top;
+    }
+    label {
+      text-align: right;
+    }
+    input[type="submit"] {
+      width: auto;
+      min-width: auto;
+      margin-bottom: 100px;
+    }
+    /*----WebWork----*/
+    .moodboard,
+    .wireframe{
+      width: 1400px;
+      max-width: 95%;
+      margin:  60px auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+    
+
+    /*----footer----*/
+    footer{
+      background-color: rgba(233,185,232, 0.5);
+      position: relative;
+      height: 170px;
+      clear: both;
+    }
+    .footer-content{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+    }
+    .footer-content h3{
+      font-size: 20px;
+      font-weight: 400;
+      margin-bottom: 0;
+    }
+    .footer-content li, .footer-content a{
+      max-width: 500px;
+      line-height: 25px;
+      list-style: none;
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      color: black;
+      padding-right: 20px;
+    }
+
+
+    
