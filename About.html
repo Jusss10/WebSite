@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>About - Justine</title>
+    
+</head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+    <div class="topnav" id="myTopnav">
+        <div class="logo"><a href="index.html" class="active">Home</a></div>
+        <a href="contact.html">Contact</a>
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </nav>
+      <section class="about">
+        <h1>About Me</h1>
+          <section class="about-text">
+            <h3>Student programming</h3>
+            <p>I am studying to be a full stack developer. I am 23 years old.
+              I have one younger brother and two animals. I have always dreamend 
+              of doing something creative. I hope i can learn alot about computers.
+              Here is <a href="Resume.pdf">my cv</a>  for more info.
+            </p>
+            <figure><img src="ProfilePic.jpg" alt="Justine Dor"></figure>
+          </section>
+        </section>
+    <footer>
+      <section class="footer-content">
+          <h3>Don't forget to check out my socials</h3>
+        <ul class="Socials">
+          <li><a href="https://github.com/Jusss10">Github</a></li>
+          <li><a href="https://www.youtube.com/channel/UCUWs0zrYsq-j0xHpLg1GBew">youtube</a></li>
+          <li><a href="https://sketchfab.com/Dorjustine">Sketchfab</a></li>
+        </ul>
+      </section>
+    </footer>
+    <script>
+      function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+          x.className += " responsive";
+      } else {
+          x.className = "topnav";
+      }
+      }
+    </script>
+  </body>
+</html>
