@@ -74,12 +74,12 @@
     }
     
     .about-text{
-      flex-basis: 50%;
+      flex-basis: 70%;
       border-radius: 10px;
       margin-bottom: 5%;
     }
     .about-text img{
-      width: 50%;
+      width: 70%;
       border-radius: 10px;
     }
     .about h1{
@@ -112,7 +112,6 @@
       font-weight: bold;
       font-size: 20px;
     }
-    
     .cards {
       max-width: 1200px;
       padding: 30px;
@@ -121,20 +120,20 @@
       grid-gap: 1rem;
     }
     
-    /* Screen larger than 600px? 2 column */
+    /* 2 column */
     @media (min-width: 600px) {
       .cards { grid-template-columns: repeat(2, 1fr); }
     }
     
-    /* Screen larger than 900px? 3 columns */
+    /* 3 columns */
     @media (min-width: 900px) {
       .cards { grid-template-columns: repeat(3, 1fr); }
     }
     
     /*----Formulier----*/
     body .Formulier{
-      max-width: 1000px;
-      margin: 40px auto;
+      max-width: 80%;
+      margin: auto;
     }
     fieldset {
       border: 2px solid rgba(184,152,199);
@@ -169,18 +168,6 @@
       min-width: auto;
       margin-bottom: 100px;
     }
-    /*----WebWork----*/
-    .moodboard,
-    .wireframe{
-      width: 1400px;
-      max-width: 95%;
-      margin:  60px auto;
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-    }
-    
-
     /*----footer----*/
     footer{
       background-color: rgba(233,185,232, 0.5);

@@ -5,19 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Contact - Justine</title>
   </head>
   <body>
+    <!-- Navigation -->
     <nav>
-      <section class="logo">
-       <p><a href="index.html">HomePage</a></p>
-      </section>
-      <ul class="nav-links">
-        <li><a href="About.html">About</a></li>
-        <li><a href="Projects.html">Projects</a></li>
-        <li><a href="Contact.html">Contact</a></li>
-      </ul>
-    </nav>
+      <div class="topnav" id="myTopnav">
+          <div class="logo"><a href="index.html" class="active">Home</a></div>
+          <a href="contact.html">Contact</a>
+          <a href="projects.html">Projects</a>
+          <a href="about.html">About</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </nav>
+
+    <section class="about">
+      <h1>Contact me pls ;)</h1>
+    </section>
+
     <section class="Formulier">
     <form action="post-demo.php" method="post">
       <fieldset>
@@ -43,6 +51,7 @@
       <input type="submit" value="Verstuur">
     </form>
     </section>
+    
     <footer>
       <section class="footer-content">
           <h3>Don't forget to check out my socials</h3>
