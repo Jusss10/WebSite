@@ -5,32 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Projects - Justine</title>
     
 </head>
   <body>
-    <nav>
-      <section class="logo">
-        <p><a href="index.html">HomePage</a></p>
-      </section>
-        <ul class="nav-links">
-          <li><a href="About.html">About</a></li>
-          <li><a href="Projects.html">Projects</a></li>
-          <li><a href="Contact.html">Contact</a></li>
-        </ul>
-    </nav>
-    <section class="main">
-      <h3>My Projects</h3>
-    </section>
-    <div class="grid">
-      <div class="div1"><a href="WebWork.html">My portfolio</a></div>
-      <div class="div2"><a href="Workplace-learning.html">WorkPlace Working</a></div>
-      <div class="div3"><a href="#">Singing Covers</a></div>
-      <div class="div4"><a href="#">My ice Sculptures</a></div>
+    <!-- Navigation -->
+   <nav>
+    <div class="topnav" id="myTopnav">
+        <div class="logo"><a href="index.html" class="active">Home</a></div>
+        <a href="contact.html">Contact</a>
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
       </div>
-      <section class="main">
-        <p>More to come</p>
-      </section>
+  </nav>
+
+  <section class="main">
+    <h3>My Projects</h3>
+  </section>
+  <div class="cards">
+    <div class="card"><a href="WebWork.html">My portfolio</a></div>
+    <div class="card"><a href="Workplace-learning.html">WorkPlace Working</a></div>
+    <div class="card"><a href="#">Singing Covers</a></div>
+    <div class="card"><a href="#">My ice Sculptures</a></div>
+    <div class="card">FIVE</div>
+    <div class="card">SIX</div>
+  </div>
+  <section class="main">
+    <p>More to come</p>
+  </section>
+
     <footer>
       <section class="footer-content">
           <h3>Don't forget to check out my socials</h3>
@@ -41,5 +48,17 @@
         </ul>
       </section>
     </footer>
+
+    <script>
+      function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+          x.className += " responsive";
+      } else {
+          x.className = "topnav";
+      }
+      }
+    </script>
+
   </body>
 </html>
